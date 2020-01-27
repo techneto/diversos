@@ -1,0 +1,6 @@
+ls *.blend > files.txt #lista os arquivos do diretório atual e gera um arquivo temporário
+while read line #faz um looping do arquivo e ler linha por linha
+	do
+	blender -b "$line" -a #renderiza cada linha do arquivo gerada anteriormente
+	done < files.txt #arquivo que será lido para fazer o looping
+rm -f files.txt #remove o arquivo temporario
