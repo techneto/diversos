@@ -1,3 +1,9 @@
+#!/bin/bash
+
+#
+# AUTHOR JOAQUIM BARTOLOMEU FERREIRA NETO
+# MEU CANAL NO YOUTUBE https://www.youtube.com/channel/UCQeu-TOpmVrZSFSPUN65BPA
+
 ls *.blend > files.txt #lista os arquivos do diretório atual e gera um arquivo temporário
 while read line #faz um looping do arquivo e ler linha por linha
 	do
